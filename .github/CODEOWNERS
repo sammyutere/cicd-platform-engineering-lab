@@ -1,0 +1,14 @@
+# Default owner
+* @sammyutere
+
+# CI/CD platform code
+/.github/workflows/ @sammyutere
+/platform/ @sammyutere
+
+# Architecture and platform contracts
+/docs/architecture/ @sammyutere
+/docs/adr/ @sammyutere
+/docs/contracts/ @sammyutere
+
+# Platform observability
+/observability/ @sammyutere

@@ -1,0 +1,70 @@
+# Milestone 1 Local Baseline Evidence
+
+Captured: Tue  6 Oct 2026 21:35:45 BST
+
+## Workstation
+ProductName:		macOS
+ProductVersion:		26.6.2
+BuildVersion:		25G83
+
+Architecture: x86_64
+Shell: /bin/bash
+
+## Toolchain
+git version 2.54.0
+gh version 2.95.0 (2026-06-17)
+GNU Make 3.81
+Homebrew 6.0.11
+
+## Repository
+Path: /Users/macos/engineering-labs/cicd-platform-engineering-lab
+Branch: main
+
+## ADR Count
+      10
+
+## Validation
+========================================
+ Milestone 1 Acceptance Validation
+========================================
+
+PASS: file exists: README.md
+PASS: file exists: CONTRIBUTING.md
+PASS: file exists: .gitignore
+PASS: file exists: .editorconfig
+PASS: file exists: .github/CODEOWNERS
+PASS: file exists: .github/pull_request_template.md
+PASS: file exists: docs/contracts/engineering-contract.md
+PASS: file exists: docs/contracts/functional-requirements.md
+PASS: file exists: docs/contracts/non-functional-requirements.md
+PASS: file exists: docs/architecture/architecture.md
+PASS: file exists: docs/architecture/trust-boundaries.md
+PASS: file exists: docs/architecture/repository-model.md
+PASS: file exists: docs/adr/001-multi-repository-architecture.md
+PASS: file exists: docs/adr/002-github-actions-ci.md
+PASS: file exists: docs/adr/003-reusable-workflows-platform-api.md
+PASS: file exists: docs/adr/004-gitops-ci-cd-separation.md
+PASS: file exists: docs/adr/005-immutable-artifact-promotion.md
+PASS: file exists: docs/adr/006-oidc-cloud-authentication.md
+PASS: file exists: docs/adr/007-signed-software-supply-chain.md
+PASS: file exists: docs/adr/008-action-sha-pinning.md
+PASS: file exists: docs/adr/009-gitops-desired-state-repository.md
+PASS: file exists: docs/adr/010-platform-observability.md
+PASS: exactly 10 initial ADRs exist
+PASS: build-once/promote-many contract exists
+PASS: CI/CD separation contract exists
+PASS: long-lived credential restriction exists
+PASS: pipeline-as-platform-API contract exists
+PASS: Argo CD reconciliation architecture exists
+PASS: repository is a Git work tree
+PASS: current branch is main
+
+========================================
+Passed: 30
+Failed: 0
+========================================
+Milestone 1 structural validation: PASS
+
+## Credential Pattern Check
+Scanning repository for common credential patterns...
+Basic credential-pattern scan: PASS
